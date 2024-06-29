@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Presentation</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/174/174854.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class=" slide">
+        <h1>HTML Tags Presentation</h1>
+        <p>This is an introduction to essential HTML tags and their descriptions.</p>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;!DOCTYPE&gt;</h2>
+        <p>The <code>&lt;!DOCTYPE&gt;</code> declaration defines the document type and version of HTML. For example:</p>
+        <code>&lt;!DOCTYPE html&gt;</code>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;html&gt; and &lt;/html&gt;</h2>
+        <p>The <code>&lt;html&gt;</code> tag is the root element of an HTML document. It contains all other elements.
+            The closing tag is <code>&lt;/html&gt;</code>.</p>
+        <pre><code>
+&lt;html&gt;
+    ...
+&lt;/html&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;head&gt; and &lt;/head&gt;</h2>
+        <p>The <code>&lt;head&gt;</code> tag contains metadata, scripts, styles, and title of the document. The closing
+            tag is <code>&lt;/head&gt;</code>.</p>
+        <pre><code>
+&lt;head&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;title&gt; and &lt;/title&gt;</h2>
+        <p>The <code>&lt;title&gt;</code> tag sets the title of the web page, which appears in the browser tab. The
+            closing tag is <code>&lt;/title&gt;</code>.</p>
+        <pre><code>
+&lt;title&gt;My Web Page&lt;/title&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;body&gt; and &lt;/body&gt;</h2>
+        <p>The <code>&lt;body&gt;</code> tag contains the contents of an HTML document, such as text, images, links,
+            etc. The closing tag is <code>&lt;/body&gt;</code>.</p>
+        <pre><code>
+&lt;body&gt;
+    &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+&lt;/body&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;h1&gt; to &lt;h6&gt;</h2>
+        <p>Heading tags <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> are used to define headings, with
+            <code>&lt;h1&gt;</code> as the highest level and <code>&lt;h6&gt;</code> as the lowest.
+        </p>
+        <pre><code>
+&lt;h1&gt;Main Heading&lt;/h1&gt;
+&lt;h2&gt;Subheading&lt;/h2&gt;
+&lt;h3&gt;Sub-subheading&lt;/h3&gt;
+&lt;h4&gt;Sub-sub-subheading&lt;/h4&gt;
+&lt;h5&gt;Sub-sub-sub-subheading&lt;/h5&gt;
+&lt;h6&gt;Sub-sub-sub-sub-subheading&lt;/h6&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;p&gt; and &lt;/p&gt;</h2>
+        <p>The <code>&lt;p&gt;</code> tag defines a paragraph of text. The closing tag is <code>&lt;/p&gt;</code>.</p>
+        <pre><code>
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;a&gt; and &lt;/a&gt;</h2>
+        <p>The <code>&lt;a&gt;</code> tag defines a hyperlink, which links to another page or resource. The
+            <code>href</code> attribute specifies the link destination. The closing tag is <code>&lt;/a&gt;</code>.
+        </p>
+        <pre><code>
+&lt;a href="http://example.com"&gt;Visit Example.com&lt;/a&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;img&gt;</h2>
+        <p>The <code>&lt;img&gt;</code> tag embeds an image in the document. It has attributes like <code>src</code>
+            (source URL) and <code>alt</code> (alternative text). This tag is self-closing and does not need a closing
+            tag.</p>
+        <pre><code>
+&lt;img src="image.jpg" alt="Description of image"&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;ul&gt;, &lt;ol&gt; and &lt;li&gt;</h2>
+        <p>The <code>&lt;ul&gt;</code> tag defines an unordered list, <code>&lt;ol&gt;</code> defines an ordered list,
+            and <code>&lt;li&gt;</code> defines a list item. These tags need closing tags.</p>
+        <pre><code>
+&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+&lt;/ol&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;div&gt; and &lt;/div&gt;</h2>
+        <p>The <code>&lt;div&gt;</code> tag is a container that divides the document into sections. It is often used
+            with CSS for styling. The closing tag is <code>&lt;/div&gt;</code>.</p>
+        <pre><code>
+&lt;div&gt;
+    &lt;p&gt;This is a paragraph inside a div.&lt;/p&gt;
+&lt;/div&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;span&gt; and &lt;/span&gt;</h2>
+        <p>The <code>&lt;span&gt;</code> tag is an inline container used to mark up a part of a text or a part of a
+            document. It is used with CSS for styling. The closing tag is <code>&lt;/span&gt;</code>.</p>
+        <pre><code>
+&lt;span style="color: red;"&gt;This text is red.&lt;/span&gt;
+        </code></pre>
+    </div>
+
+
+
+
+
+
+
+    <!-- Other existing slides go here -->
+
+    <div class="slide">
+        <h2>&lt;center&gt; and &lt;/center&gt;</h2>
+        <p>The <code>&lt;center&gt;</code> tag is used to center-align text or other elements.
+            Note: This tag is now obsolete and it's recommended to use CSS for centering
+            elements. The closing tag is <code>&lt;/center&gt;</code>.</p>
+        <pre><code>
+        &lt;center&gt;
+        &lt;p&gt;This text is centered.&lt;/p&gt;
+        &lt;/center&gt;
+        </code></pre>
+    </div>
+
+
+
+    <div class="slide">
+        <h1>Html Formatter</h1>
+        <br><br>
+
+        <h2>&lt;i&gt; and &lt;/i&gt;</h2>
+        <p>The <code>&lt;i&gt;</code> tag is used to make text italic. The closing tag is <code>&lt;/i&gt;</code>.</p>
+        <pre><code>
+        &lt;p&gt;This is &lt;i&gt;italic&lt;/i&gt; text.&lt;/p&gt;
+        </code></pre>
+
+        <h2>&lt;em&gt; and &lt;/em&gt;</h2>
+        <p>The <code>&lt;em&gt;</code> tag is used to emphasize text. The closing tag is <code>&lt;/em&gt;</code>.</p>
+        <pre><code>
+        &lt;p&gt;This is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
+        </code></pre>
+
+        <h2>&lt;mark&gt; and &lt;/mark&gt;</h2>
+        <p>The <code>&lt;mark&gt;</code> tag is used to highlight text. The closing tag is <code>&lt;/mark&gt;</code>.
+        </p>
+        <pre><code>
+        &lt;p&gt;This is &lt;mark&gt;marked&lt;/mark&gt; text.&lt;/p&gt;
+        </code></pre>
+
+        <h2>&lt;small&gt; and &lt;/small&gt;</h2>
+        <p>The <code>&lt;small&gt;</code> tag is used to make text smaller. The closing tag is
+            <code>&lt;/small&gt;</code>.
+        </p>
+        <pre><code>
+        &lt;p&gt;This is &lt;small&gt;smaller&lt;/small&gt; text.&lt;/p&gt;
+        </code></pre>
+
+        <h2>&lt;del&gt; and &lt;/del&gt;</h2>
+        <p>The <code>&lt;del&gt;</code> tag is used to represent deleted text. The text inside this tag is typically
+            displayed with a strikethrough. The closing tag is <code>&lt;/del&gt;</code>.</p>
+        <pre><code>
+        &lt;p&gt;This is &lt;del&gt;deleted&lt;/del&gt; text.&lt;/p&gt;
+        </code></pre>
+
+        <h2>&lt;ins&gt; and &lt;/ins&gt;</h2>
+        <p>The <code>&lt;ins&gt;</code> tag is used to represent inserted text. The closing tag is
+            <code>&lt;/ins&gt;</code>.
+        </p>
+        <pre><code>
+        &lt;p&gt;This is &lt;ins&gt;inserted&lt;/ins&gt; text.&lt;/p&gt;
+        </code></pre>
+
+        <h2>&lt;sub&gt; and &lt;/sub&gt;</h2>
+        <p>The <code>&lt;sub&gt;</code> tag is used for subscript text. The closing tag is <code>&lt;/sub&gt;</code>.
+        </p>
+        <pre><code>
+        &lt;p&gt;This is &lt;sub&gt;subscript&lt;/sub&gt; text.&lt;/p&gt;
+        </code></pre>
+
+        <h2>&lt;sup&gt; and &lt;/sup&gt;</h2>
+        <p>The <code>&lt;sup&gt;</code> tag is used for superscript text. The closing tag is <code>&lt;/sup&gt;</code>.
+        </p>
+        <pre><code>
+        &lt;p&gt;This is &lt;sup&gt;superscript&lt;/sup&gt; text.&lt;/p&gt;
+        </code></pre>
+        <i>Italic text</i><br>
+        <em>Emphasized text</em><br>
+        <mark>Marked text</mark><br>
+        <small>Smaller text</small><br>
+        <del>Deleted text</del><br>
+        <ins>Inserted text</ins><br>
+        <sub>Subscript text</sub><br>
+        <sup>Superscript text</sup><br>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="slide">
+        <h2>&lt;form&gt; and &lt;/form&gt;</h2>
+        <p>The <code>&lt;form&gt;</code> tag is used to create an HTML form for user input. The closing tag is
+            <code>&lt;/form&gt;</code>. The <code>form</code> element can contain various input elements. The
+            <code>method</code> attribute specifies how to send form data.
+        </p>
+        <h3>Methods:</h3>
+        <ul>
+            <li><code>GET</code>: Appends data to the URL (used for retrieving data).</li>
+            <li><code>POST</code>: Sends data as a separate entity (used for submitting data).</li>
+        </ul>
+        <h3>Example:</h3>
+        <pre><code>
+    &lt;form action="/submit_form" method="POST"&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;&lt;br&gt;&lt;br&gt;
+    &lt;input type="submit" value="Submit"&gt;
+    &lt;/form&gt;
+    </code></pre>
+    </div>
+
+    <div class="slide">
+        <h1> <code>&lt;br&gt;</code></h1>
+        The <code>&lt;br&gt;</code> tag in HTML is used to insert a line break. It is an empty element, meaning it
+        does not have
+        a
+        closing tag. The <br> tag is useful when you want to start a new line of text within the same paragraph or
+        block-level element.
+    </div>
+    <div class="slide">
+        <h1> &lt;script&gt;</h1>
+        The &lt;script&gt; tag in HTML is used to embed or reference executable code, typically JavaScript.It can be
+        placed
+        within
+        the &lt; head &gt; or &lt; body &gt; sections of an HTML document.The code inside the &lt; script &gt; tag can
+        be
+        written
+        directly
+        within the tag, or it can be linked to an external JavaScript file using the src attribute.
+        <br><br>
+        Examples:
+        Inline JavaScript:
+        <div class="black">
+            <pre><span class="myblue">&lt;script&gt;</span></pre>
+            <span class="crimson"> document</span><span class="white">.</span><span class="red">write</span><span
+                class="white">(</span> <span class="green">"This is an inline JavaScript example."
+            </span><span class="white"> );</span>
+            <pre class="myblue">&lt;/script&gt;</pre>
+        </div>
+        External JavaScript:
+        First, create an external JavaScript file, script.js:
+        <div class="black">
+            <span class="comment">
+                // script.js
+            </span>
+
+            <pre>
+        <span class="myblue">function</span><span class="red"> displayMessage</span><span class="white">() {</span>
+            <span class="crimson"> document</span><span class="white">.</span><span class="red">write</span><span
+    class="white">(</span><span class="green">"This is an inline JavaScript example."</span><span class="white"> );</span>
+<span class="white">}</span>
+</pre>
+        </div>
+        Then, link to this file in your HTML document:
+        <div class="black">
+            <span class="white">&lt;</span><span class="myblue">script <span class="red">src</span><span
+                    class="white">=</span><span class="green">"script.js"</span></span><span
+                class="white">&gt;</span><span class="white">&lt;</span><span class="myblue">/script</span><span
+                class="white">&gt;</span>
+        </div>
+        Attributes: <br>
+        src: Specifies the URL of an external script file. <br>
+        type: Specifies the MIME type of the script (default is text/javascript). <br>
+        async: Executes the script asynchronously as soon as it is available. <br>
+        defer: Executes the script when the page has finished parsing. <br><br>
+        <h2> Examples with Attributes: </h2><br>
+        <h3>1. Using src Attribute:</h3> <br>
+        <div class="black">
+            <span class="white">&lt;</span><span class="myblue">script</span> <span class="red">src</span>
+            <span class="white">=</span><span class="green">"path/to/your/script.js"</span><span
+                class="white">></span><span class="white">&lt;</span><span class="myblue">/script</span><span
+                class="white">&gt;</span>
+        </div>
+        <h3>2. Using async Attribute:</h3>
+        <div class="black">
+            <span class="white">&lt;</span><span class="myblue">script</span> <span class="red">src</span>
+            <span class="white">=</span><span class="green">"path/to/your/script.js"<span class="white"><span
+                        class="crimson"> async</span>></span></span><span class="white">&lt;</span><span
+                class="myblue">/script</span><span class="white">&gt;</span>
+        </div>
+        <h3>Using defer Attribute:</h3>
+        <div class="black">
+            <span class="white">&lt;</span><span class="myblue">script</span> <span class="red">src</span>
+            <span class="white">=</span><span class="green">"path/to/your/script.js"<span class="white"><span
+                        class="crimson"> defer</span>></span></span><span class="white">&lt;</span><span
+                class="myblue">/script</span><span class="white">&gt;</span>
+        </div>Notes:
+        Scripts with the async attribute will be executed as soon as the script is downloaded, without blocking the page
+        rendering.
+        Scripts with the defer attribute will be executed in the order they appear in the document, after the page has
+        finished parsing.
+        Use the
+        &lt;script&gt; tag to enhance your web pages with dynamic content and interactivity through JavaScript.
+
+    </div>
+    <div class="slide">
+        <h1>&lt;link&gt; and &lt;/link&gt;</h1>
+        The <code>&lt;link&gt;</code> tag in HTML is used to define the relationship between the current document
+        and an external resource. The closing tag is not required as <code>&lt;link&gt;</code> is a self-closing
+        tag. To add a favicon to your HTML document, you use the <code>&lt;link&gt;</code> tag within the
+        <code>&lt;head&gt;</code> section.
+    </div>
+
+    <div class="slide">
+        <h2>Attributes:</h2>
+        <ul>
+            <li><code>href</code>: Specifies the path to the favicon file.</li>
+            <li><code>rel</code>: Specifies the relationship between the current document and the linked resource.
+                For favicons, this is typically <code>"icon"</code> or <code>"shortcut icon"</code>.</li>
+            <li><code>type</code>: Specifies the MIME type of the linked resource. For favicons, common types
+                include <code>"image/x-icon"</code>, <code>"image/png"</code>, etc.</li>
+            <li><code>sizes</code>: Defines the sizes of the icons (e.g., <code>"32x32"</code>) to provide different
+                resolutions for different devices.</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h3>Example:</h3>
+        <pre> <code> 
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Document&lt;/title&gt;
+            &lt;link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon"&gt;
+            &lt;link rel="icon" type="image/png" sizes="32x32" href="path/to/your/favicon-32x32.png"&gt;
+            &lt;link rel="icon" type="image/png" sizes="16x16" href="path/to/your/favicon-16x16.png"&gt;
+            &lt;link rel="icon" type="image/svg+xml" href="path/to/your/favicon.svg"&gt;
+            &lt;link rel="shortcut icon" href="path/to/your/favicon.ico"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Hello, World!&lt;/h1&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+        </code></pre>
+    </div>
+    <div class="slide">
+        <h1>&lt;iframe&gt; and &lt;/iframe&gt;</h1>
+        The <code>&lt;iframe&gt;</code> tag in HTML is used to embed another HTML document within the current
+        document. It creates an inline frame, which can be used to display a web page within a web page. The closing
+        tag is <code>&lt;/iframe&gt;</code>.
+    </div>
+
+    <div class="slide">
+        <h2>Attributes:</h2>
+        <ul>
+            <li><code>src</code>: Specifies the URL of the page to embed.</li>
+            <li><code>width</code>: Specifies the width of the iframe.</li>
+            <li><code>height</code>: Specifies the height of the iframe.</li>
+            <li><code>name</code>: Specifies a name for the iframe, which can be used as the target for links.</li>
+            <li><code>frameborder</code>: Specifies whether or not to display a border around the iframe.</li>
+            <li><code>scrolling</code>: Specifies whether or not to allow scrolling within the iframe.</li>
+            <li><code>allow</code>: Specifies a list of features for the iframe to allow.</li>
+            <li><code>allowfullscreen</code>: Allows the iframe content to be displayed in fullscreen mode.</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h3>Example:</h3>
+        <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Document&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;h1&gt;Embedded Page Example&lt;/h1&gt;
+        &lt;iframe src="https://www.example.com" width="600" height="400" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+        </code></pre>
+    </div>
+    <div class="slide">
+        <h1>&lt;input&gt;</h1>
+        The <code>&lt;input&gt;</code> tag in HTML is used to create interactive controls in a web form that accepts
+        user input. It is a self-closing tag, meaning it does not have a closing tag. Various types of inputs can be
+        specified using the <code>type</code> attribute.
+    </div>
+
+    <div class="slide">
+        <h2>Common Input Types:</h2>
+        <ul>
+            <li><code>type="text"</code>: Defines a single-line text input field.</li>
+            <li><code>type="password"</code>: Defines a password field, characters are masked.</li>
+            <li><code>type="email"</code>: Defines a field for entering an email address.</li>
+            <li><code>type="number"</code>: Defines a field for entering a number.</li>
+            <li><code>type="date"</code>: Defines a field for selecting a date.</li>
+            <li><code>type="checkbox"</code>: Defines a checkbox.</li>
+            <li><code>type="radio"</code>: Defines a radio button.</li>
+            <li><code>type="submit"</code>: Defines a submit button for submitting the form.</li>
+            <li><code>type="reset"</code>: Defines a reset button for resetting the form fields to their initial
+                values.</li>
+            <li><code>type="button"</code>: Defines a clickable button.</li>
+            <li><code>type="file"</code>: Defines a file-select field and a "Browse" button for file uploads.</li>
+            <li><code>type="hidden"</code>: Defines a hidden input field.</li>
+            <li><code>type="color"</code>: Defines a color picker.</li>
+            <li><code>type="range"</code>: Defines a slider control for selecting a value in a range of values.</li>
+            <li><code>type="search"</code>: Defines a search field (like a site search or Google search).</li>
+            <li><code>type="tel"</code>: Defines a field for entering a telephone number.</li>
+            <li><code>type="url"</code>: Defines a field for entering a URL.</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h3>Examples:</h3>
+        <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Input Types Example&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;form&gt;
+        &lt;label for="text"&gt;Text Input:&lt;/label&gt;
+        &lt;input type="text" id="text" name="text"&gt;&lt;br&gt;&lt;br&gt;
+        
+        &lt;label for="password"&gt;Password Input:&lt;/label&gt;
+        &lt;input type="password" id="password" name="password"&gt;&lt;br&gt;&lt;br&gt;
+        
+        &lt;label for="email"&gt;Email Input:&lt;/label&gt;
+        &lt;input type="email" id="email" name="email"&gt;&lt;br&gt;&lt;br&gt;
+        
+        &lt;label for="number"&gt;Number Input:&lt;/label&gt;
+        &lt;input type="number" id="number" name="number"&gt;&lt;br&gt;&lt;br&gt;
+        
+        &lt;label for="date"&gt;Date Input:&lt;/label&gt;
+        &lt;input type="date" id="date" name="date"&gt;&lt;br&gt;&lt;br&gt;
+        
+        &lt;label for="color"&gt;Color Picker:&lt;/label&gt;
+        &lt;input type="color" id="color" name="color"&gt;&lt;br&gt;&lt;br&gt;
+        
+        &lt;label for="range"&gt;Range Slider:&lt;/label&gt;
+        &lt;input type="range" id="range" name="range" min="1" max="100"&gt;&lt;br&gt;&lt;br&gt;
+        
+        &lt;label&gt;Checkbox:&lt;/label&gt;
+        &lt;input type="checkbox" id="checkbox1" name="checkbox1" value="1"&gt; Option 1
+        &lt;input type="checkbox" id="checkbox2" name="checkbox2" value="2"&gt; Option 2&lt;br&gt;&lt;br&gt;
+        
+        &lt;label&gt;Radio Button:&lt;/label&gt;
+        &lt;input type="radio" id="radio1" name="radio" value="1"&gt; Option 1
+        &lt;input type="radio" id="radio2" name="radio" value="2"&gt; Option 2&lt;br&gt;&lt;br&gt;
+        
+        &lt;input type="submit" value="Submit"&gt;
+        &lt;input type="reset" value="Reset"&gt;
+        &lt;/form&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+        </code></pre>
+    </div>
+    <div class="slide">
+        <h1>&lt;video&gt; and &lt;/audio&gt;</h1>
+        The <code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code> tags in HTML are used to embed video and audio
+        content in a web page, respectively. Both elements have attributes that provide control over playback,
+        source files, and compatibility with various devices and browsers.
+    </div>
+
+    <div class="slide">
+        <h2>&lt;video&gt; tag:</h2>
+        <p>The <code>&lt;video&gt;</code> tag is used to embed video content. It requires at least one
+            <code>&lt;source&gt;</code> element to specify the video files. The closing tag is
+            <code>&lt;/video&gt;</code>.
+        </p>
+
+        <h3>Attributes:</h3>
+        <ul>
+            <li><code>src</code>: Specifies the URL of the video file. (Optional, can be provided in the
+                <code>&lt;source&gt;</code> element)
+            </li>
+            <li><code>controls</code>: Displays video controls such as play, pause, and volume.</li>
+            <li><code>autoplay</code>: Starts playing the video as soon as it is ready.</li>
+            <li><code>loop</code>: Plays the video repeatedly.</li>
+            <li><code>muted</code>: Mutes the audio in the video.</li>
+            <li><code>width</code> and <code>height</code>: Specifies the dimensions of the video player.</li>
+            <li><code>poster</code>: Specifies an image to be shown while the video is downloading or until the user
+                hits the play button.</li>
+        </ul>
+
+        <h3>Example:</h3>
+        <pre><code>
+        &lt;video width="640" height="480" controls&gt;
+        &lt;source src="movie.mp4" type="video/mp4"&gt;
+        &lt;source src="movie.ogg" type="video/ogg"&gt;
+        Your browser does not support the video tag.
+        &lt;/video&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;audio&gt; tag:</h2>
+        <p>The <code>&lt;audio&gt;</code> tag is used to embed audio content. It requires at least one
+            <code>&lt;source&gt;</code> element to specify the audio files. The closing tag is
+            <code>&lt;/audio&gt;</code>.
+        </p>
+
+        <h3>Attributes:</h3>
+        <ul>
+            <li><code>src</code>: Specifies the URL of the audio file. (Optional, can be provided in the
+                <code>&lt;source&gt;</code> element)
+            </li>
+            <li><code>controls</code>: Displays audio controls such as play, pause, and volume.</li>
+            <li><code>autoplay</code>: Starts playing the audio as soon as it is ready.</li>
+            <li><code>loop</code>: Plays the audio repeatedly.</li>
+            <li><code>muted</code>: Mutes the audio.</li>
+        </ul>
+
+        <h3>Example:</h3>
+        <pre><code>
+        &lt;audio controls&gt;
+        &lt;source src="you're audio name.mp3" type="audio/mpeg"&gt;
+        Your browser does not support the audio tag.
+        &lt;/audio&gt;
+        </code></pre>
+    </div>
+    <div class="slide">
+        <h1>&lt;header&gt;, &lt;main&gt;, &lt;footer&gt;, and &lt;section&gt;</h1>
+        These HTML5 semantic elements are used to define the structure and organization of a web page. They provide
+        meaning to the content, making it easier for search engines and screen readers to understand the document.
+    </div>
+
+    <div class="slide">
+        <h2>&lt;header&gt; Tag:</h2>
+        <p>The <code>&lt;header&gt;</code> tag is used to represent the introductory content or navigational links
+            of a section or page. It typically contains headings, logos, or other introductory content.</p>
+
+        <h3>Example:</h3>
+        <pre><code>
+        &lt;header&gt;
+        &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+        &lt;nav&gt;
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;/nav&gt;
+        &lt;/header&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;main&gt; Tag:</h2>
+        <p>The <code>&lt;main&gt;</code> tag is used to encapsulate the dominant content of a document. This content
+            is unique and should not include any content that repeats across documents (like headers, footers, or
+            sidebars).</p>
+
+        <h3>Example:</h3>
+        <pre><code>
+        &lt;main&gt;
+                &lt;article&gt;
+            &lt;h2&gt;Article Title&lt;/h2&gt;
+            &lt;p&gt;This is the content of the article.&lt;/p&gt;
+                &lt;/article&gt;
+        &lt;/main&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;footer&gt; Tag:</h2>
+        <p>The <code>&lt;footer&gt;</code> tag is used to define the footer of a document or section. It typically
+            contains information about the author, copyright information, or links to related documents.</p>
+
+        <h3>Example:</h3>
+        <pre><code>
+        &lt;footer&gt;
+                &lt;p&gt;© 2024 My Website. All rights reserved.&lt;/p&gt;
+        &lt;nav&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href="#privacy"&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#terms"&gt;Terms of Service&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;/nav&gt;
+        &lt;/footer&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>&lt;section&gt; Tag:</h2>
+        <p>The <code>&lt;section&gt;</code> tag is used to define a section in a document. It represents a thematic
+            grouping of content, typically with a heading.</p>
+
+        <h3>Example:</h3>
+        <pre><code>
+        &lt;section&gt;
+        &lt;h2&gt;Section Title&lt;/h2&gt;
+        &lt;p&gt;This is the content of the section.&lt;/p&gt;
+        &lt;/section&gt;
+        
+        &lt;section&gt;
+        &lt;h2&gt;Another Section Title&lt;/h2&gt;
+        &lt;p&gt;This is the content of another section.&lt;/p&gt;
+        &lt;/section&gt;
+        </code></pre>
+    </div>
+    <div class="slide">
+        <h1>&lt;meta&gt; Tags</h1>
+        The <code>&lt;meta&gt;</code> tags in HTML provide metadata about the HTML document. Metadata will not be
+        displayed on the page but will be machine-readable. Meta elements are typically used to specify page
+        description, keywords, author of the document, last modified, and other metadata. They are always placed
+        inside the <code>&lt;head&gt;</code> tag.
+    </div>
+
+    <div class="slide">
+        <h2>Common &lt;meta&gt; Attributes:</h2>
+        <ul>
+            <li><code>name</code>: Specifies the name of the metadata</li>
+            <li><code>content</code>: Provides the value or content of the metadata</li>
+            <li><code>charset</code>: Specifies the character encoding for the HTML document</li>
+            <li><code>http-equiv</code>: Provides an HTTP header for the information/value of the content attribute
+            </li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h2>Examples of Common &lt;meta&gt; Tags:</h2>
+        <ul>
+            <li><code>&lt;meta charset="UTF-8"&gt;</code>: Specifies the character encoding for the document</li>
+            <li><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code>: Provides
+                instructions for controlling the page's dimensions and scaling</li>
+            <li><code>&lt;meta name="description" content="A brief description of the page"&gt;</code>: Describes
+                the content of the page</li>
+            <li><code>&lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;</code>: Provides a list of
+                keywords relevant to the content of the page</li>
+            <li><code>&lt;meta name="author" content="Author Name"&gt;</code>: Specifies the author of the document
+            </li>
+            <li><code>&lt;meta http-equiv="refresh" content="30"&gt;</code>: Refreshes the document every 30 seconds
+            </li>
+            <li><code>&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;</code>: Sets the document mode in
+                Internet Explorer to edge mode</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h3>Example:</h3>
+        <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;meta name="description" content="A brief description of the page"&gt;
+            &lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;
+            &lt;meta name="author" content="Author Name"&gt;
+            &lt;meta http-equiv="refresh" content="30"&gt;
+            &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+        &lt;title&gt;Document&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+                &lt;h1&gt;Hello, World!&lt;/h1&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>Open Graph Meta Tags:</h2>
+        <p>Open Graph meta tags are used to improve the display of shared content on social media platforms. They
+            provide more control over how URLs are displayed when shared.</p>
+        <ul>
+            <li><code>&lt;meta property="og:title" content="The title of the content"&gt;</code>: Specifies the
+                title of the content</li>
+            <li><code>&lt;meta property="og:description" content="A brief description of the content"&gt;</code>:
+                Describes the content</li>
+            <li><code>&lt;meta property="og:image" content="URL to the image"&gt;</code>: Specifies an image URL
+                that represents the content</li>
+            <li><code>&lt;meta property="og:url" content="URL of the content"&gt;</code>: Specifies the canonical
+                URL of the content</li>
+        </ul>
+        <h3>Example:</h3>
+        <pre><code>
+        &lt;meta property="og:title" content="The title of the content"&gt;
+        &lt;meta property="og:description" content="A brief description of the content"&gt;
+        &lt;meta property="og:image" content="URL to the image"&gt;
+        &lt;meta property="og:url" content="URL of the content"&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>Twitter Card Meta Tags:</h2>
+        <p>Twitter Card meta tags are used to control how content is displayed in Twitter tweets.</p>
+        <ul>
+            <li><code>&lt;meta name="twitter:card" content="summary"&gt;</code>: Specifies the type of card to be
+                displayed (e.g., summary, photo, video)</li>
+            <li><code>&lt;meta name="twitter:title" content="The title of the content"&gt;</code>: Specifies the
+                title of the content</li>
+            <li><code>&lt;meta name="twitter:description" content="A brief description of the content"&gt;</code>:
+                Describes the content</li>
+            <li><code>&lt;meta name="twitter:image" content="URL to the image"&gt;</code>: Specifies an image URL
+                that represents the content</li>
+            <li><code>&lt;meta name="twitter:site" content="@username"&gt;</code>: Specifies the Twitter username of
+                the content creator</li>
+        </ul>
+        <h3>Example:</h3>
+        <pre><code>
+        &lt;meta name="twitter:card" content="summary"&gt;
+        &lt;meta name="twitter:title" content="The title of the content"&gt;
+        &lt;meta name="twitter:description" content="A brief description of the content"&gt;
+        &lt;meta name="twitter:image" content="URL to the image"&gt;
+        &lt;meta name="twitter:site" content="@username"&gt;
+        </code></pre>
+    </div>
+
+    <div class="slide">
+        <h2>Additional Meta Tags:</h2>
+        <ul>
+            <li><code>&lt;meta name="theme-color" content="#ffffff"&gt;</code>: Specifies the theme color for the
+                browser's address bar (supported on mobile browsers)</li>
+            <li><code>&lt;meta name="robots" content="index, follow"&gt;</code>: Specifies the behavior of search
+                engine crawlers (e.g., index or noindex, follow or nofollow)</li>
+        </ul>
+        <h3>Example:</h3>
+        <pre><code>
+        &lt;meta name="theme-color" content="#ffffff"&gt;
+        &lt;meta name="robots" content="index, follow"&gt;
+        </code></pre>
+
+</body>
+
+</html>
